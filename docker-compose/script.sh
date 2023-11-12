@@ -54,3 +54,12 @@ docker compose down
 
 #project name
 docker compose ls
+
+#cek logs container
+docker container logs (containername)
+
+#monitor container
+docker events --filter 'container=(containername)'
+
+#melihat statistik kontainer
+docker container stats
